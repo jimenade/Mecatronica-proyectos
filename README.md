@@ -12,7 +12,7 @@ https://www.amazon.es/Micro-servo-9G-Motor-Pieza/dp/B0BBR4RB5H/ref=asc_df_B0BBR4
 
 https://www.amazon.es/AZDelivery-Nano-V3-completamente-compatible/dp/B01MS7DUEM/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.mwj3uKRU0qi0NrBvZkG7z6koXEfe0KejDr8wqSQwImoqrOHL6lhmGNPjb_HLFnz6VKfX1h6W3QKDT2eQcjZhG4DMOT2zCCC11VeLpJvJ4Zm-yYDu2p7c-Uk2jPixo5RbO9Ph2_wUPbrm5wjliqaNbyoxrUUp-76ArF8MhH7D-nAZ0QcieVnW0SIvM8CVdApJOSo2paufmzfakGb43PXpqrY-7yv0HJoCiA1xoDoaNbcJBlbET0pdZ-h7Fp4p6VCp12Z32tKO-A6CTVc5OLmYDPjUfX2CmXnQ1OPaYWloQhA.VyLs5dlu3G6i4Vrgqntggx5HtSXv7fOKefZeIVQalAE&dib_tag=se&keywords=arduino%2Bnano%2Bv3&qid=1729005296&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1
 
-- Cables H-H y H-M
+- Cables H-H y H-M 
 
 - Módulo 8x2 LCD:
 
