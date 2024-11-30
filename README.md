@@ -14,9 +14,9 @@ https://www.amazon.es/AZDelivery-Nano-V3-completamente-compatible/dp/B01MS7DUEM/
 
 - Cables H-H y H-M 
 
-- Módulo 8x2 LCD:
+- Módulo OLED 0.91 pulgadas:
 
-https://www.amazon.es/HALJIA-Car%C3%A1cter-Retroiluminaci%C3%B3n-Compatible-Raspberry/dp/B092ZGT95S
+https://www.amazon.es/AZDelivery-Pantalla-Display-Pixeles-Parent/dp/B079H2C7WH?th=1
 
 - Altavoz:
 
