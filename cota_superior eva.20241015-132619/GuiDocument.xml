@@ -1,0 +1,653 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see https://www.freecad.org for more information...
+-->
+<Document SchemaVersion="1" HasExpansion="1">
+    <Expand />
+    <ViewProviderData Count="10">
+        <ViewProvider name="View" expanded="0" treeRank="3411" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="TechDrawGui::ViewProviderDrawingViewExtension" name="ViewProviderDrawingViewExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="28" TransientCount="0">
+                <Property name="ArcCenterMarks" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="BreakLineStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="BreakLineType" type="App::PropertyEnumeration" status="1">
+                    <Integer value="2"/>
+                </Property>
+                <Property name="CenterScale" type="App::PropertyFloat" status="1">
+                    <Float value="0.5000000000000000"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ExtraWidth" type="App::PropertyLength" status="1">
+                    <Float value="1.3999999999999999"/>
+                </Property>
+                <Property name="FaceColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="16777215"/>
+                </Property>
+                <Property name="FaceTransparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="HiddenWidth" type="App::PropertyLength" status="1">
+                    <Float value="0.3500000000000000"/>
+                </Property>
+                <Property name="HighlightAdjust" type="App::PropertyFloat" status="1">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="HighlightLineColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="0"/>
+                </Property>
+                <Property name="HighlightLineStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="2"/>
+                </Property>
+                <Property name="HorizCenterLine" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="IncludeCutLine" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="IsoWidth" type="App::PropertyLength" status="1">
+                    <Float value="0.5000000000000000"/>
+                </Property>
+                <Property name="KeepLabel" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyLength" status="1">
+                    <Float value="0.7000000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="SectionLineColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="255"/>
+                </Property>
+                <Property name="SectionLineMarks" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SectionLineStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="4"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowAllEdges" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShowSectionLine" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="StackOrder" type="App::PropertyInteger" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="VertCenterLine" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Sketch" expanded="0" treeRank="3408" Extensions="True">
+            <Extensions Count="3">
+                <Extension type="Gui::ViewProviderFaceTexture" name="ViewProviderFaceTexture">
+                </Extension>
+                <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+                </Extension>
+                <Extension type="PartGui::ViewProviderGridExtension" name="ViewProviderGridExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="36" TransientCount="0">
+                <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
+                    <Float value="28.5000000000000000"/>
+                </Property>
+                <Property name="AutoColor" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Autoconstraints" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="AvoidRedundant" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="BoundingBox" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="0.5000000000000000"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="EditingWorkbench" type="App::PropertyString" status="16777217">
+                    <String value="SketcherWorkbench"/>
+                </Property>
+                <Property name="ForceOrtho" type="App::PropertyBool" status="16777217">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="GridAuto" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="GridSize" type="App::PropertyLength" status="1">
+                    <Float value="10.0000000000000000"/>
+                </Property>
+                <Property name="HideDependent" type="App::PropertyBool" status="16777217">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Lighting" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="LineColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="4294967295"/>
+                </Property>
+                <Property name="LineColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="LineColorArray"/>
+                </Property>
+                <Property name="LineMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="4294967295" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000" image="" imagePath="" uuid=""/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="PointColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="4294967295"/>
+                </Property>
+                <Property name="PointColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="PointColorArray"/>
+                </Property>
+                <Property name="PointMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="4294967295" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000" image="" imagePath="" uuid=""/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="4.0000000000000000"/>
+                </Property>
+                <Property name="RestoreCamera" type="App::PropertyBool" status="16777217">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SectionView" type="App::PropertyBool" status="16777217">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeAppearance" type="App::PropertyMaterialList" status="1">
+                    <MaterialList file="ShapeAppearance" version="3"/>
+                </Property>
+                <Property name="ShowGrid" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShowLinks" type="App::PropertyBool" status="16777217">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShowSupport" type="App::PropertyBool" status="16777217">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="TempoVis" type="App::PropertyPythonObject" status="16777217">
+                    <Python value="bnVsbA==" encoded="yes" json="yes"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="VisualLayerList" type="BadType" status="16777217">
+                    <VisualLayerList count="3">
+                        <VisualLayer visible="true" linePattern="65535" lineWidth="3.0000000000000000"/>
+                        <VisualLayer visible="true" linePattern="32382" lineWidth="3.0000000000000000"/>
+                        <VisualLayer visible="false" linePattern="65535" lineWidth="3.0000000000000000"/>
+                    </VisualLayerList>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Dimension" expanded="0" treeRank="3412" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="TechDrawGui::ViewProviderDrawingViewExtension" name="ViewProviderDrawingViewExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="18" TransientCount="0">
+                <Property name="Arrowsize" type="App::PropertyLength" status="1">
+                    <Float value="3.5000000000000000"/>
+                </Property>
+                <Property name="Color" type="App::PropertyColor" status="1">
+                    <PropertyColor value="255"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="FlipArrowheads" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Font" type="App::PropertyFont" status="1">
+                    <String value="osifont"/>
+                </Property>
+                <Property name="Fontsize" type="App::PropertyLength" status="1">
+                    <Float value="5.0000000000000000"/>
+                </Property>
+                <Property name="GapFactorASME" type="App::PropertyFloat" status="1">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="GapFactorISO" type="App::PropertyFloat" status="1">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="KeepLabel" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="LineSpacingFactorISO" type="App::PropertyFloat" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyLength" status="1">
+                    <Float value="0.3500000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="RenderingExtent" type="App::PropertyEnumeration" status="1">
+                    <Integer value="4"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="StackOrder" type="App::PropertyInteger" status="1">
+                    <Integer value="110"/>
+                </Property>
+                <Property name="StandardAndStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Page" expanded="0" treeRank="3409" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="TechDrawGui::ViewProviderPageExtension" name="ViewProviderPageExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="8" TransientCount="0">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="GridSpacing" type="App::PropertyDistance" status="1">
+                    <Float value="10.0000000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowFrames" type="App::PropertyBool" status="9">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="ShowGrid" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Dimension003" expanded="0" treeRank="3423" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="TechDrawGui::ViewProviderDrawingViewExtension" name="ViewProviderDrawingViewExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="18" TransientCount="0">
+                <Property name="Arrowsize" type="App::PropertyLength" status="1">
+                    <Float value="3.5000000000000000"/>
+                </Property>
+                <Property name="Color" type="App::PropertyColor" status="1">
+                    <PropertyColor value="255"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="FlipArrowheads" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Font" type="App::PropertyFont" status="1">
+                    <String value="osifont"/>
+                </Property>
+                <Property name="Fontsize" type="App::PropertyLength" status="1">
+                    <Float value="5.0000000000000000"/>
+                </Property>
+                <Property name="GapFactorASME" type="App::PropertyFloat" status="1">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="GapFactorISO" type="App::PropertyFloat" status="1">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="KeepLabel" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="LineSpacingFactorISO" type="App::PropertyFloat" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyLength" status="1">
+                    <Float value="0.3500000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="RenderingExtent" type="App::PropertyEnumeration" status="1">
+                    <Integer value="4"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="StackOrder" type="App::PropertyInteger" status="1">
+                    <Integer value="110"/>
+                </Property>
+                <Property name="StandardAndStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Template" expanded="0" treeRank="-1" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="TechDrawGui::ViewProviderTemplateExtension" name="ViewProviderTemplateExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="5" TransientCount="0">
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Dimension004" expanded="0" treeRank="3424" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="TechDrawGui::ViewProviderDrawingViewExtension" name="ViewProviderDrawingViewExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="18" TransientCount="0">
+                <Property name="Arrowsize" type="App::PropertyLength" status="1">
+                    <Float value="3.5000000000000000"/>
+                </Property>
+                <Property name="Color" type="App::PropertyColor" status="1">
+                    <PropertyColor value="255"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="FlipArrowheads" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Font" type="App::PropertyFont" status="1">
+                    <String value="osifont"/>
+                </Property>
+                <Property name="Fontsize" type="App::PropertyLength" status="1">
+                    <Float value="5.0000000000000000"/>
+                </Property>
+                <Property name="GapFactorASME" type="App::PropertyFloat" status="1">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="GapFactorISO" type="App::PropertyFloat" status="1">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="KeepLabel" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="LineSpacingFactorISO" type="App::PropertyFloat" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyLength" status="1">
+                    <Float value="0.3500000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="RenderingExtent" type="App::PropertyEnumeration" status="1">
+                    <Integer value="4"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="StackOrder" type="App::PropertyInteger" status="1">
+                    <Integer value="110"/>
+                </Property>
+                <Property name="StandardAndStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Dimension001" expanded="0" treeRank="3413" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="TechDrawGui::ViewProviderDrawingViewExtension" name="ViewProviderDrawingViewExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="18" TransientCount="0">
+                <Property name="Arrowsize" type="App::PropertyLength" status="1">
+                    <Float value="3.5000000000000000"/>
+                </Property>
+                <Property name="Color" type="App::PropertyColor" status="1">
+                    <PropertyColor value="255"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="FlipArrowheads" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Font" type="App::PropertyFont" status="1">
+                    <String value="osifont"/>
+                </Property>
+                <Property name="Fontsize" type="App::PropertyLength" status="1">
+                    <Float value="5.0000000000000000"/>
+                </Property>
+                <Property name="GapFactorASME" type="App::PropertyFloat" status="1">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="GapFactorISO" type="App::PropertyFloat" status="1">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="KeepLabel" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="LineSpacingFactorISO" type="App::PropertyFloat" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyLength" status="1">
+                    <Float value="0.3500000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="RenderingExtent" type="App::PropertyEnumeration" status="1">
+                    <Integer value="4"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="StackOrder" type="App::PropertyInteger" status="1">
+                    <Integer value="110"/>
+                </Property>
+                <Property name="StandardAndStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Dimension002" expanded="0" treeRank="3421" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="TechDrawGui::ViewProviderDrawingViewExtension" name="ViewProviderDrawingViewExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="18" TransientCount="0">
+                <Property name="Arrowsize" type="App::PropertyLength" status="1">
+                    <Float value="3.5000000000000000"/>
+                </Property>
+                <Property name="Color" type="App::PropertyColor" status="1">
+                    <PropertyColor value="255"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="FlipArrowheads" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Font" type="App::PropertyFont" status="1">
+                    <String value="osifont"/>
+                </Property>
+                <Property name="Fontsize" type="App::PropertyLength" status="1">
+                    <Float value="5.0000000000000000"/>
+                </Property>
+                <Property name="GapFactorASME" type="App::PropertyFloat" status="1">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="GapFactorISO" type="App::PropertyFloat" status="1">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="KeepLabel" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="LineSpacingFactorISO" type="App::PropertyFloat" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyLength" status="1">
+                    <Float value="0.3500000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="RenderingExtent" type="App::PropertyEnumeration" status="1">
+                    <Integer value="4"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="StackOrder" type="App::PropertyInteger" status="1">
+                    <Integer value="110"/>
+                </Property>
+                <Property name="StandardAndStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+        <ViewProvider name="Dimension005" expanded="0" treeRank="3425" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="TechDrawGui::ViewProviderDrawingViewExtension" name="ViewProviderDrawingViewExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="18" TransientCount="0">
+                <Property name="Arrowsize" type="App::PropertyLength" status="1">
+                    <Float value="3.5000000000000000"/>
+                </Property>
+                <Property name="Color" type="App::PropertyColor" status="1">
+                    <PropertyColor value="255"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="9">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="FlipArrowheads" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Font" type="App::PropertyFont" status="1">
+                    <String value="osifont"/>
+                </Property>
+                <Property name="Fontsize" type="App::PropertyLength" status="1">
+                    <Float value="5.0000000000000000"/>
+                </Property>
+                <Property name="GapFactorASME" type="App::PropertyFloat" status="1">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="GapFactorISO" type="App::PropertyFloat" status="1">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="KeepLabel" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="LineSpacingFactorISO" type="App::PropertyFloat" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyLength" status="1">
+                    <Float value="0.3500000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="RenderingExtent" type="App::PropertyEnumeration" status="1">
+                    <Integer value="4"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="StackOrder" type="App::PropertyInteger" status="1">
+                    <Integer value="110"/>
+                </Property>
+                <Property name="StandardAndStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
+    </ViewProviderData>
+    <Camera settings="OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position 35.028522 -64.130249 70.014542&#10;  orientation 0.86492187 0.23175442 0.44519675  1.0835806&#10;  nearDistance 87.840736&#10;  farDistance 112.64774&#10;  aspectRatio 1&#10;  focalDistance 100&#10;  height 100&#10;&#10;}&#10;"/>
+</Document>
