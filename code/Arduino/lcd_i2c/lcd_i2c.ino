@@ -118,7 +118,7 @@ void leer_oled() {
       display.display(); //Muestra la imagen 
       delay(2000); //Se muestre la imagen solo 2 segundos
       display.clearDisplay(); //Borra el buffer
-      display.drawBitmap(0, 0, solid_heart, 128, 32, 1);
+      display.drawBitmap(0, 0, line_heart, 128, 32, 1);
       display.display(); //Muestra la imagen 
     }
     
