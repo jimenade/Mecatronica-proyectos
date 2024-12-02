@@ -24,7 +24,7 @@ En este README quedará reflejado la lista de materiales y los enlaces de cada e
 
 - Filamento e impresora 3D o que nos impriman las piezas en algún sitio(opcional)
 
-Este último paso se puede sustituir por cartón si no se quiere o puede imprimir las piezas con una impresora 3D
+Este último material se puede sustituir por cartón si no se quiere o puede imprimir las piezas con una impresora 3D
 
 ## Procedimiento:
 
