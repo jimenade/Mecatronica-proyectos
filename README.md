@@ -26,3 +26,18 @@ En este README quedará reflejado la lista de materiales y los enlaces de cada e
 
 - Bateria (aun no sabemos si en pilas o de que manera)
 
+- Filamento e impresora 3D o que nos impriman las piezas en algún sitio(opcional)
+
+Este último paso se puede sustituir por cartón si no se quiere o puede imprimir las piezas con una impresora 3D
+
+## Procedimiento:
+
+Primero decidir que hacer, nosotros tuvimos varias ideas, las cuales hemos reflejado en una [página de la wiki](https://github.com/jimenade/Mecatronica-proyectos/wiki/Ideas-y-Prototipos), una vez que teníamos la idea con la que trabajaremos hay que:
+- Hacer el diseño 2D
+
+- Hacer el diseño 3D junto con las cotas
+
+- Montaje electrónico de los componentes
+
+- Programación 
+
