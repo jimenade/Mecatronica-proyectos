@@ -6,21 +6,17 @@ En este README quedará reflejado la lista de materiales y los enlaces de cada e
 
 ## Lista de materiales:
 
-- 4 miniservos (dos para brazos y dos para la base): https://shorturl.at/977NV
+- 1 miniservo: https://shorturl.at/977NV
+
+- 1 touchpad: https://www.az-delivery.de/es/products/touch-sensor-modul-1
 
 - 1 Módulo OLED 0.91 pulgadas: https://shorturl.at/6iS0w
 
 - 1 Altavoz: https://shorturl.at/m8a9T
 
-- 1 Sensor IR: https://shorturl.at/gvawp
-
-- 1 Sensor ultrasonidos: https://shorturl.at/EiZMq
-
 - 1 arduino nano: https://shorturl.at/Ii6YU
   
 - 1 FPGA Alhambra II : https://ultra-lab.net/producto/alhambra-ii-fpga-board-placa/
-
-- 1 rueda loca: https://shorturl.at/TpNih
 
 - Cables H-H y H-M: https://shorturl.at/qyiI4
 
