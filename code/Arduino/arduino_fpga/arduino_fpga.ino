@@ -11,7 +11,7 @@ Adafruit_SSD1306 display(OLED_RESET);
 #if (SSD1306_LCDHEIGHT != 32)
 #error("Altura incorrecta, cambie en la librería de Adafruit_SSD1306.h!");
 #endif
-
+int STATE = 0; 
 // Imagen con Ancho x alto = 128,32
 const unsigned char line_heart [] PROGMEM = {
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -168,7 +168,13 @@ void loop() {
 
   // Imprimir el valor del pin en el monitor serial
   if (estado == HIGH) {
-    STATE = STATE + 1;
+    if(STATE == 3){
+      STATE = 0;
+    }
+    else{
+      STATE = STATE + 1;
+    }
+    
   }
   leer_oled(STATE);
 
