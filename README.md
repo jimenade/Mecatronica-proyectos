@@ -20,13 +20,14 @@
 | 🔢 Cantidad | 🧰 Material                    | 🔗 Enlace de compra                                                                 |
 |-------------|-------------------------------|-----------------------------------------------------------------------------------|
 | 1           | Miniservo                    | [Comprar](https://shorturl.at/977NV)                                             |
-| 1           | Módulo OLED 0.91 pulgadas   | [Comprar](https://shorturl.at/6iS0w)                                             |
+| 1           | Módulo OLED 0.91 pulgadas    | [Comprar](https://shorturl.at/6iS0w)                                             |
 | 1           | Zumbador                     | [Comprar](https://shorturl.at/E41Ez)                                             |
 | 1           | Arduino Nano                 | [Comprar](https://shorturl.at/Ii6YU)                                             |
 | 1           | FPGA Alhambra II             | [Comprar](https://ultra-lab.net/producto/alhambra-ii-fpga-board-placa/)          |
 | Varios      | Cables H-H y H-M             | [Comprar](https://shorturl.at/qyiI4)                                             |
-| 1           | Batería (a definir)          | *(Por definir)*                                                                  |
+| 1           | Batería portátil             | *(Por definir)*                                                                  |
 | Opcional    | Filamento e impresora 3D     | *(Alternativa: cartón u otro material reciclable)*                               |
+| 1 trocito   | Velcro                       | [Comprar](https://shorturl.at/Yu9MI)                                             |
 
 > **📝 Nota:** El zumbador listado no es exactamente el mismo que utilizamos, ya que forma parte de un kit. Sin embargo, su funcionalidad y el código requerido son equivalentes.
 
