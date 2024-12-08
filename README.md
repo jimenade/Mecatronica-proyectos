@@ -1,39 +1,120 @@
-# Mecatronica-proyectos
-Bienvenidos a nuestro proyecto de la asignatura de Mecatrónica del grado de Ingeniería Robótica Software de la Universidad Rey Juan Carlos
+# <div align="center">Proyecto de Mecatrónica 🚀</div>
 
-En este README quedará reflejado la lista de materiales y los enlaces de cada elemento de la lista donde podéis comprarlos y lo que hemos hecho de forma breve, mientras que en la [wiki](https://github.com/jimenade/Mecatronica-proyectos/wiki) está todo mucho más explicado detallado, así como imágenes tanto de los materiales como del proceso.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b633ff5b-0e9c-4ac6-850c-344682d002d7" alt="Eva" width=900>
 
+|       |                                                                                                                                                                        |
+| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Code  | ![GitHub](https://img.shields.io/badge/License-MIT-blue) ![GitHub](https://img.shields.io/badge/Version-1.0-blue) ![GitHub](https://img.shields.io/badge/release-in_process-orange) ![GitHub](https://img.shields.io/badge/docs-Wiki-white) ![GitHub](https://img.shields.io/badge/FreeCAD-1.0-green) |
+| Wiki  | <div align="center"><a href="https://github.com/jimenade/Mecatronica-proyectos/wiki"><strong>📖 Access our Wiki for detailed documentation</strong></a></div>                  |
+</div>
 
-## Lista de materiales:
+**¡Bienvenidos!** Este repositorio contiene los proyectos desarrollados en la asignatura de Mecatrónica del Grado en Ingeniería Robótica Software de la Universidad Rey Juan Carlos.
 
-- 1 Miniservo: https://shorturl.at/977NV
+> ⚠️ **Documentación en proceso de construcción:** Este README, junto con la [Wiki del proyecto](https://github.com/jimenade/Mecatronica-proyectos/wiki), se encuentra en desarrollo y se irá actualizando constantemente con información más detallada.
 
-- 1 Módulo OLED 0.91 pulgadas: https://shorturl.at/6iS0w
+---
 
-- 1 Zumbador: https://shorturl.at/E41Ez
+## 📋 Índice
+- [🛠️ Lista de Materiales](#lista-de-materiales)
+- [🔧 Procedimiento](#procedimiento)
+- [🖥️ Requisitos Previos](#requisitos-previos)
+- [🚀 Instalación y Configuración](#instalación-y-configuración)
+- [🤝 Contribuir](#contribuir)
+- [📜 Licencia](#licencia)
+- [✅ Estado del Proyecto](#estado-del-proyecto)
 
-- 1 Arduino Nano: https://shorturl.at/Ii6YU
-  
-- 1 FPGA Alhambra II : https://ultra-lab.net/producto/alhambra-ii-fpga-board-placa/
+---
 
-- Cables H-H y H-M: https://shorturl.at/qyiI4
+## 🛠️ Lista de Materiales
 
-- Bateria (aun no sabemos si en pilas o de que manera)
+| 🔢 Cantidad | 🧰 Material                    | 🔗 Enlace de compra                                                                 |
+|-------------|-------------------------------|-----------------------------------------------------------------------------------|
+| 1           | Miniservo                    | [Comprar](https://shorturl.at/977NV)                                             |
+| 1           | Módulo OLED 0.91 pulgadas   | [Comprar](https://shorturl.at/6iS0w)                                             |
+| 1           | Zumbador                     | [Comprar](https://shorturl.at/E41Ez)                                             |
+| 1           | Arduino Nano                 | [Comprar](https://shorturl.at/Ii6YU)                                             |
+| 1           | FPGA Alhambra II             | [Comprar](https://ultra-lab.net/producto/alhambra-ii-fpga-board-placa/)          |
+| Varios      | Cables H-H y H-M             | [Comprar](https://shorturl.at/qyiI4)                                             |
+| 1           | Batería (a definir)          | *(Por definir)*                                                                  |
+| Opcional    | Filamento e impresora 3D     | *(Alternativa: cartón u otro material reciclable)*                               |
 
-- Filamento e impresora 3D o que nos impriman las piezas en algún sitio(opcional)
+> **📝 Nota:** El zumbador listado no es exactamente el mismo que utilizamos, ya que forma parte de un kit. Sin embargo, su funcionalidad y el código requerido son equivalentes.
 
-Este último material se puede sustituir por cartón si no se quiere o puede imprimir las piezas con una impresora 3D.
+---
 
-El zumbador no es exactamente el mismo que nosotros utilizamos ya que ese pertenece a un kit, pero la función y el código es el mismo.
+## 🔧 Procedimiento
 
-## Procedimiento:
+1. **💡 Definir la idea:** Generamos varias propuestas, documentadas en esta [página de la wiki](https://github.com/jimenade/Mecatronica-proyectos/wiki/Ideas-y-Prototipos).
+2. **✏️ Diseño:**
+    - Diseño 2D
+    - Diseño 3D con cotas
+3. **🔌 Montaje electrónico:** Integración de todos los componentes.
+4. **💻 Programación:** Desarrollo del código necesario para el funcionamiento del sistema.
 
-Primero decidir que hacer, nosotros tuvimos varias ideas, las cuales hemos reflejado en una [página de la wiki](https://github.com/jimenade/Mecatronica-proyectos/wiki/Ideas-y-Prototipos), una vez que teníamos la idea con la que trabajaremos hay que:
-- Hacer el diseño 2D
+---
 
-- Hacer el diseño 3D junto con las cotas
+## 🖥️ Requisitos Previos
 
-- Montaje electrónico de los componentes
+- **📦 Software necesario:**
+  - [Arduino IDE](https://www.arduino.cc/en/software)
+  - Software para diseño 3D como Fusion 360 o Tinkercad.
 
-- Programación 
+- **🎓 Conocimientos recomendados:**
+  - Programación básica en Arduino.
+  - Familiaridad con diseño CAD y esquemáticos electrónicos.
+---
+
+## 🚀 Instalación y Configuración
+
+1. **📂 Clona este repositorio:**
+   ```bash
+   git clone https://github.com/jimenade/Mecatronica-proyectos.git
+   ```
+
+2. **📤 Carga el código en el Arduino:**
+   - Abre el archivo principal en Arduino IDE.
+   - Conecta el Arduino Nano al ordenador.
+   - Configura el puerto y la placa correspondiente.
+   - Sube el código al microcontrolador.
+
+3. **🧪 Prueba el hardware:**
+   - Conecta los componentes siguiendo el esquema proporcionado en la [wiki](https://github.com/jimenade/Mecatronica-proyectos/wiki).
+
+---
+
+## 🤝 Contribuir
+
+¡Nos encantaría recibir tus aportaciones! Sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una rama para tu cambio:
+   ```bash
+   git checkout -b mi-rama
+   ```
+3. Realiza tus cambios y haz un commit:
+   ```bash
+   git commit -m "Descripción de mi cambio"
+   ```
+4. Envía un pull request.
+
+---
+
+## 📜 Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
+
+---
+
+## ✅ Estado del Proyecto
+
+| 🛠️ Feature            | 🟢 Estado        |
+|-----------------------|-----------------|
+| ✅ Lista de materiales | Completo        |
+| 📄 Documentación       | En progreso     |
+| 🖼️ Diseño 3D           | Completo        |
+| 🔌 Montaje electrónico | Completo        |
+| 💻 Programación        | Completo        |
+
+**🎉 Gracias por visitar este proyecto!** Si tienes preguntas o sugerencias, no dudes en abrir un issue o contactarnos. ✨
 
