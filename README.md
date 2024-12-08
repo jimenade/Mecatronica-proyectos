@@ -22,7 +22,7 @@
 | 1           | Miniservo                    | [Comprar](https://shorturl.at/977NV)                                             |
 | 1           | Módulo OLED 0.91 pulgadas    | [Comprar](https://shorturl.at/6iS0w)                                             |
 | 1           | Zumbador                     | [Comprar](https://shorturl.at/E41Ez)                                             |
-| 1           | Arduino Nano                 | [Comprar](https://shorturl.at/Ii6YU)                                             |
+| 1           | Arduino Uno                  | [Comprar](https://shorturl.at/xB8R0)                                             |
 | 1           | FPGA Alhambra II             | [Comprar](https://ultra-lab.net/producto/alhambra-ii-fpga-board-placa/)          |
 | Varios      | Cables H-H y H-M             | [Comprar](https://shorturl.at/qyiI4)                                             |
 | 1           | Batería portátil             | *(Por definir)*                                                                  |
@@ -64,7 +64,7 @@
 
 2. **📤 Carga el código en el Arduino:**
    - Abre el archivo principal en Arduino IDE.
-   - Conecta el Arduino Nano al ordenador.
+   - Conecta el Arduino Uno al ordenador.
    - Configura el puerto y la placa correspondiente.
    - Sube el código al microcontrolador.
 
