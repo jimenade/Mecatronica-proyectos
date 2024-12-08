@@ -15,17 +15,6 @@
 
 ---
 
-## 📋 Índice
-- [🛠️ Lista de Materiales](#lista-de-materiales)
-- [🔧 Procedimiento](#procedimiento)
-- [🖥️ Requisitos Previos](#requisitos-previos)
-- [🚀 Instalación y Configuración](#instalación-y-configuración)
-- [🤝 Contribuir](#contribuir)
-- [📜 Licencia](#licencia)
-- [✅ Estado del Proyecto](#estado-del-proyecto)
-
----
-
 ## 🛠️ Lista de Materiales
 
 | 🔢 Cantidad | 🧰 Material                    | 🔗 Enlace de compra                                                                 |
