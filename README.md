@@ -25,7 +25,7 @@
 | 1           | Arduino Uno                  | [Comprar](https://shorturl.at/xB8R0)                                             |
 | 1           | FPGA Alhambra II             | [Comprar](https://ultra-lab.net/producto/alhambra-ii-fpga-board-placa/)          |
 | Varios      | Cables H-H y H-M             | [Comprar](https://shorturl.at/qyiI4)                                             |
-| 1           | Batería portátil             | *(Por definir)*                                                                  |
+| 1           | Batería portátil             | [Comprar](https://www.amazon.es/10000mAh-Cargador-Port%C3%A1til-Bater%C3%ADa-Compatible/dp/B09BKPG2QZ?th=1)                                                                  |
 | Opcional    | Filamento e impresora 3D     | *(Alternativa: cartón u otro material reciclable)*                               |
 | 1 trocito   | Velcro                       | [Comprar](https://shorturl.at/Yu9MI)                                             |
 
